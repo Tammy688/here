@@ -40,6 +40,10 @@ end
 gem 'devise'
 
 gem 'faker', '~> 1.2.0' 
+
+gem 'rails_12factor', group: :production
+
+ruby "2.1.1"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
